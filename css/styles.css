@@ -10175,7 +10175,7 @@ body {
   }
   #mainNav .navbar-brand {
     padding: 0.5rem 0;
-    color: rgba(255, 255, 255, 0.5);
+    color: #fff;
   }
   #mainNav .nav-link {
     transition: none;
@@ -10225,10 +10225,10 @@ body {
 .masthead {
   position: relative;
   width: 100%;
-  height: auto;
+  height: 100vh;
   min-height: 35rem;
   padding: 15rem 0;
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.7) 75%, #000000 100%), url("../assets/img/bg-masthead.jpg");
+  background:  url("../assets/img/balancing-g54c52d31e_640.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
@@ -10239,8 +10239,8 @@ body {
   font-size: 2.5rem;
   line-height: 2.5rem;
   letter-spacing: 0.8rem;
-  background: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0));
-  -webkit-text-fill-color: transparent;
+  /* background: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0)); */
+  color: #fff;
   -webkit-background-clip: text;
           background-clip: text;
 }
@@ -10260,8 +10260,8 @@ body {
     padding: 0;
   }
   .masthead h1 {
-    font-size: 6.5rem;
-    line-height: 6.5rem;
+    font-size: 5rem;
+    line-height: 5rem;
     letter-spacing: 0.8rem;
   }
   .masthead h2 {
@@ -10271,18 +10271,44 @@ body {
 }
 
 .about-section {
-  padding-top: 10rem;
-  background: linear-gradient(to bottom, #000000 0%, rgba(0, 0, 0, 0.9) 75%, rgba(0, 0, 0, 0.8) 100%);
+  padding: 5rem 0 5rem;
+  background:url("../assets/img/office-black.jpg") no-repeat center/ cover;
+}
+.about-section img{
+  max-width: 85%;
+  height: auto;
 }
 .about-section p {
   margin-bottom: 5rem;
 }
 
+.about-section ul{
+  padding: 0;
+}
+
+.about-section ul li{
+  list-style: none;
+  padding: 10px 0 10px;
+}
+
 .projects-section {
   padding: 10rem 0;
 }
+/* .projects-section img{
+  max-width: 300px;
+  height:auto;
+} */
 .projects-section .featured-text {
   padding: 2rem;
+}
+.featured-text h4,
+.project-text h4{
+  font-weight: bold;
+}
+.featured-text p,
+.project-text p{
+  font-size: 16px;
+  line-height: 1.8em;
 }
 
 @media (min-width: 992px) {
@@ -10308,7 +10334,7 @@ body {
 
 .signup-section {
   padding: 10rem 0;
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.5) 75%, #000000 100%), url("../assets/img/bg-signup.jpg");
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.5) 75%, #000000 100%), url("../assets/img/pier-g07a707330_640.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
